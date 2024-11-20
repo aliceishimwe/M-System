@@ -1,0 +1,269 @@
+/* General Styles */
+* {
+    box-sizing: border-box
+}
+body {font-family: "Lato", sans-serif;}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e9eb;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: scroll;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #0779e4;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+/* Form Styles */
+form {
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 10%;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #e4e4e4;
+}
+
+form input[type="text"], form input[type="email"], form input[type="password"], form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    width: 50%;
+    margin-top: 10px;
+    padding: 15px;
+    background: #333;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0779e4;
+}
+
+.f-action{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+table .f-action{
+    width: 100%;
+    margin-left: 0;
+}
+
+table .f-action button{
+    border-radius: 0;
+    margin-left: 1px;
+    width: 100%;
+}
+
+.table-school{
+    background-color: white;
+}
+.table-school h2{
+    font-style: italic;
+}
+
+input{
+    outline: none;
+    border-radius: 5px;
+}
+input:hover{
+    border-bottom: 1px solid black;
+}
+
+/* Table Styles */
+table {
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 5%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px 5px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+/* Button Styles */
+button {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0779e4;
+}
+
+/* Miscellaneous Styles */
+hr {
+    border: 0;
+    height: 1px;
+    background: #e4e4e4;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 0;
+    background-color: #ccc;
+    position: fixed;
+    width: 100%;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+.container{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    margin-left: 0;
+    
+}
+.container .number{
+    margin-left: 25%;
+    margin-top: 10%;
+}
+.container nav ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ccc;
+    height: 90vh;
+    width: 17%;
+    position: fixed;
+    left: 0; top: 60px;
+}
+
+.container nav ul li{
+    list-style: none;
+    padding: 30px 5px;
+    font-size: 20px;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-self: center;
+    width: 100%;
+}
+
+.container nav ul li:hover{
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.container .change{
+    margin-left: 20%;
+    margin-top: 10%;
+}
+  
+.dash{
+    background-color: rgb(149, 149, 223);
+    color: white;
+    font-size: 25px;
+}
+
+.footer{
+    background-color: rgb(211, 210, 210);
+    margin: 0 auto;
+    margin-left: 16%;
+    align-items: center;
+    text-align: center;
+    margin-bottom: -20px;
+    font-size: 16px;
+}
+
+form select {
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.login-form{
+    display: flex;
+    margin-top: 15%;
+    border: 1px solid;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 5px;
+}
+.login-form input{
+    margin-bottom: 2px;
+    border-bottom: 1px solid black;
+}
+  
